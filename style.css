@@ -84,6 +84,10 @@ ul li a{
   margin-bottom: 25px;
 }
 
+.hero-image img{
+  width: 100%;
+}
+
 .btn{
   display: inline;
   padding: 10px 20px;
@@ -119,4 +123,38 @@ ul li a{
   margin-bottom: 20px;
 }
 
+/* Hero Section */
+.hero-container{
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 50px;
+  background-size: 80%;
+  background-position: top;
+  justify-content: center;
+}
+
+.content-container{
+  margin: 20px;
+  text-align: center;
+}
+.hero-image{
+  width: 60%;
+}
+.hero-image img{
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.content-title{
+  font-size: 1.75rem;
+}
+
+
+.sponsor-images{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 30px;
+}
 }
